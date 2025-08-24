@@ -19,11 +19,11 @@ public class Quiz10 {
 		double total =0;
 		
 		if(period == 7) {
-			total = money * 7.25*0.1;
+			total = (int)(money * 0.0725)/12;
 		}else if(period == 15) {
-			total = money * 8.5*0.1;
+			total = (int)(money * 0.085)/12;
 		}else if(period == 30) {
-			total = money * 9.0*0.1;
+			total = (int)(money * 0.09)/12;
 		}else {
 			total = 0;
 		}
@@ -32,3 +32,4 @@ public class Quiz10 {
 	}
 
 }
+
